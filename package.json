@@ -1,0 +1,19 @@
+{
+  "name": "testes-unitarios-vitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx ./src/index.ts",
+    "wathc": "tsx watch src/index.ts",
+    "test": "vitest run --dir ./src/tests"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.3"
+  }
+}
